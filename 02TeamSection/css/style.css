@@ -1,0 +1,57 @@
+body{
+  background: linear-gradient(90deg,#d53369 0%,#daae51 100%) ;
+}
+
+@media (min-width: 576px) {
+  body{
+    background: linear-gradient(90deg,#10A881 0%,#FAC42F 100%) ;
+  }
+
+ }
+
+
+
+@media (min-width: 768px) {
+   body{
+  background: linear-gradient(90deg,#53E0BC 0%,#0A3D62 100%) ;
+}
+
+}
+
+
+@media (min-width: 992px) {
+
+  body{
+    background: linear-gradient(90deg,#A3CB37 0%,#daae51 100%) ;
+  }
+
+  }
+
+
+@media (min-width: 1200px) {
+
+  body{
+    background: linear-gradient(90deg,#E74292 0%,#8B78E6 100%) ;
+  }
+
+ }
+
+.team-box{
+  border:1px solid #e5e5e5;
+  padding: 10px;
+}
+.team-box:hover{
+  border:3px solid #e5e5e5;
+}
+.team-img img{
+  border:3px solid #e0e0e0;
+  box-shadow: 5px 10px 15px -5px rgba(231,230,230,0.5)
+}
+
+.team-title h3{
+  font-size: 24px;
+  }
+
+  .team-title h4 {
+    font-size: 16px;
+  }
